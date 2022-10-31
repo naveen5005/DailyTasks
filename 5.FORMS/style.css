@@ -1,0 +1,109 @@
+*{
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 17px;
+}
+body{
+    border: 1px solid black;
+    width: fit-content;
+    /* margin-left:250px; */
+    margin: 50px;
+}
+#logo{
+    width: 150px;
+    height: 70px;
+    margin-left:-1230px;
+    margin-top: 10px;
+}
+a{
+    padding-left: 15px;
+    text-decoration: none;
+    font-weight:bolder;
+}
+a:link{
+    color: tomato;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: darkgreen;
+}
+
+div p{
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+div p:first-child{
+    color:whitesmoke;
+    background-color: red;
+    width: fit-content;
+}
+
+p:last-child{
+    background-color: tomato;
+}
+
+p::first-line{
+    color:blue;
+    text-shadow: 1px 1px black;
+}
+
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+
+h1::after,h1::before{
+    content: "*****";
+    color: blue;
+}
+#button{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    margin-left:1230px;
+    margin-right: 30px;
+}
+
+input:focus{
+    color: red;
+    background:lightblue;
+}
+
+:not(input){
+    background-color:antiquewhite
+}
+input[type=text]:enabled{
+    background-color: blue;
+}
+
+input:disabled{
+    border: 5px double red;
+}
+
+input[type=email]:valid{
+    background-color: yellow;
+}
+
+#submit{
+    width: 100px;
+    font-size: larger;  
+    border-radius: 5px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+#submit:hover{
+    background-color: black;
+}
+
+legend{
+    font-size: x-large;
+}
