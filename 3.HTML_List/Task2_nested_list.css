@@ -1,0 +1,48 @@
+div{
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    margin: auto;
+    margin-top: 200px;
+    padding: 60px;
+}
+
+ul.main-ul{
+    display: inline-block;
+    text-align: left;
+}
+
+p,li{
+    font-size: 1.5rem;
+}
+
+h1{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+}
+h2{
+    text-decoration-line: underline;
+    text-decoration-style: dotted; 
+}
+p::selection{
+    background-color: skyblue;
+    font-size: xx-large;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+ul li{
+    /* list-style-image: url("Images/plain_sponge.jpg"); */
+    list-style-type: lower-alpha;
+}
+ol li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+li::marker{
+    color: thistle;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested list</title>
+    <link rel="stylesheet" href="Task2_nested_list.css">
+</head>
+<body>
+    <div>
+        <h1>HTML Cooking School</h1>
+    <h2>Recipes</h2>
+    <p>Since this is an HTML tutorial, all links go to the sponge recipe. Just thought I'd warn you.</p>
+    <ul class="main-ul">
+        <li>Cakes
+            <ul type="disc">
+                <li><a href="Task2_Plain_Sponge.html" onclick="window.open(this.href,'newwindow', width=1000, height=800)" target="-blank">Plain Sponge</a></li>
+                <li><a href="Task2_Choclate_cake.html" target="_blank">Chocolate Cake</a></li>
+                <li><a href="Task2_Apple_Tea_Cake.html" target="_blank">Apple Tea Cake</a></li>
+                <!-- onclick="window.open(this.ref,'newwindow', width=1000, height=800)" -->
+            </ul>
+        </li>
+        <li>Biscuits
+            <ul type="disc">
+                <li><a href="">ANZAC Biscuits</a></li>
+                <li><a href="">Jam Drops</a></li>
+                <li><a href="">Melting Moments</a></li>
+            </ul>
+        </li>
+        <li>Breads/wuickbreads
+            <ul type="disc">
+                <li><a href="">Damper</a>
+                <ol>
+                    <li>Smuggles</li>
+                    <li>Shoes</li>
+                    <li>Cloths</li>
+                    <li>Marker</li>
+                </ol>
+                </li>
+                <li><a href="">Scones</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+</body>
+</html>
