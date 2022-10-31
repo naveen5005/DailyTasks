@@ -1,0 +1,25 @@
+h2{
+    text-align:center;
+    font-size:50px;
+    text-decoration: underline;
+}
+p{
+    text-align:justify;
+    text-indent: 45px;
+    color: darkgray;
+    font-size:large;
+}
+h4{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+a{
+    color: whitesmoke;
+}
+a:hover{
+    color: blue;
+}
+body{
+    background-color: rgb(67, 68, 69);
+}
