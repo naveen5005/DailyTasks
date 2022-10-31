@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main.nav ol li{
+            list-style: none;
+            display: inline;
+            margin-left: 50px;
+            font-size: larger;
+        }
+        .sub.nav{
+            display: none;
+            border: 1px solid black;
+            width: 130px;
+        }
+        .sub.nav ol{
+            border: 5px dotted red;
+        }
+        .sub.nav ol li{
+            margin-left: -20px;
+        }
+        .main.nav ol li:hover .sub.nav{
+            display: inline;
+            position: absolute;
+            margin-top: 20px;
+            margin-left: -50px;
+        }
+        .main.nav ol li:hover .sub.nav ol li{
+            display: block;
+            padding: 10px;
+        }
+        .main.nav ol li:hover .sub.nav ol li:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main nav">
+        <ol>
+            <li>home
+                <div class="sub nav">
+                    <ol>
+                        <li>Speech</li>
+                        <li>Data</li>
+                        <li>Media</li>
+                        <li>Blogs</li>
+                    </ol>
+                </div>
+            </li>
+            <li>Contact</li>
+            <li>About us
+                <div class="sub nav">
+                    <ol>
+                        <li>Speech</li>
+                        <li>Data</li>
+                        <li>Media</li>
+                        <li>Blogs</li>
+                    </ol>
+                </div>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>

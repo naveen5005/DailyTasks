@@ -1,0 +1,263 @@
+body{
+    margin: 10px;
+    padding: 0;
+    text-align: justify;
+}
+
+/* ------------------------   Navigation  ------------------------------- */
+
+.navigations a img{
+    width: 40px;
+    height: 40px;
+    margin-top:18px;
+    margin-left: 30px;
+}
+.navigations{
+    background-color: #0675c4;
+    height: 80px;
+}
+.left.navigation{
+    margin-top: -57px;
+    margin-left: 15px;
+}
+.left.navigation ul li{
+    display: inline;
+    font-size: x-large;
+    margin: 20px;
+}
+
+.left.navigation ul li a,.right.navigation a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#firstNav{
+    font-size: xx-large;
+}
+.sub-nav1{
+    display: none;
+}
+
+.left.navigation ul li:hover .sub-nav1{
+    display: inline;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 50px    ;
+    background-color: #0675c4;
+    color:darkblue;
+    border-radius: 10px;
+}
+
+.left.navigation ul li:hover .sub-nav1 ul li{
+    display: block;
+    border: 1px solid lightblue;
+    padding: 10px;
+    margin-left: -20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.sub-nav1 ul li:hover{
+    background-color: lightgray;
+}
+
+/*------------------------- Right Navigation-------------------------------  */
+
+
+.right.navigation{
+    margin-top: -50px;
+    margin-left: 1605px;
+}
+.right.navigation a{
+    font-size: x-large;
+    margin-right: 15px;
+}
+#getStarted{
+    border: 1px dotted whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 5px 2px 5px black;
+}
+#getStarted:hover{
+    text-decoration: underline;
+}
+
+
+/* -----------------------------------   Header Image and LOGO      --------------------------------------*/
+
+img{
+    height: 700px;
+    width: 100%;
+    opacity: 0.7;
+    border-top: 5px solid white;
+}
+h1{
+    margin-top: -520px;
+    margin-left: 35%;
+    font-size: 100px;
+}
+
+#w{
+    color: violet;
+}
+.o{
+    color: #149ac3;
+}
+.r{
+    color:gray;
+}
+#d{
+    color: tomato;
+}
+#p{
+    color: #149ac3;
+}
+#e{
+    color: #466ea9;;
+}
+.s{
+    color: red;
+}
+#b{
+    color: #9e8f87;
+}
+#l{
+    color:aqua;
+}
+#g{
+    color: thistle;
+}
+
+
+/* ------------------------------------------   main content         -------------------------*/
+
+main{
+    margin-top: 410px;
+    /* border: 1px solid black; */
+    height: 1100px;
+}
+
+.middle-content{
+    height: 900px;
+    width: 60%;
+    margin: auto;
+}
+.middle-content a{
+    text-decoration: none;
+    color:black;
+}
+.head-matter p{
+    font-size: 1.6rem;
+}
+.sub-section img{
+    width: 300px;
+    height: 300px;
+}
+
+.sub-section{
+    display: flex;
+    border: 1px solid lightgray;
+    outline: 1px solid lightblue;
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.sub-section div{
+    margin-left: 20px;
+}
+.second-div-content{
+    font-size: 1.20rem;
+    line-height: 1.50rem;
+}
+.second-div-content h2{
+    text-transform: uppercase;
+}
+.picture-div{
+    margin: auto;
+}
+/*------------------ ------      Footer      -----------------------------*/
+
+.main.footer{
+    margin-top:2450px;
+}
+.first.footer{
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 170px;
+}
+.first.footer h2{
+    font-size:40px;
+    font-family: 'Caveat', cursive;
+    margin-top: -5px;
+}
+
+button[type="submit"]{
+    padding: 20px;
+    margin-left: -70px;
+    width: 300px;
+    background-color: #00aadc;
+    border: none;
+    border-radius: 10px;
+    font-size: xx-large;
+    color: whitesmoke;
+    box-shadow: 0px 2px 0px black;
+}
+button[type="submit"] a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+button[type="submit"]:hover{
+    text-shadow: 5px 2px 5px black;
+    box-shadow: 5px 2px 15px black;
+}
+
+
+
+
+.second.footer ul{
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.second.footer ul li{
+    list-style: none;
+    font-size: larger;
+    line-height: 30px;
+}
+
+.second.footer ul li:first-child{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#bottom-button{
+    margin-left: 600px;
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+.second.footer ul li a{
+    text-decoration: none;
+    color:skyblue;
+}
+.second.footer ul li a:hover{
+    color: lightgrey;
+}
+
+
+.footer.last{
+    text-align: center;
+    height: 45px;
+    margin-top:50px;
+}
+p::first-letter{
+    font-size: large;
+    font-weight: bold;
+}
+
+p::selection{
+    background-color: skyblue;
+    color: whitesmoke;
+}
