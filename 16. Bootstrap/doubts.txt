@@ -1,0 +1,10 @@
+table - last column also getting line 
+table-success is not working
+
+table-hover is not working
+
+using table-bordered in line no 61, table-hover, table-active and table-success is not working
+
+border-secondary,border-info not working
+
+	
