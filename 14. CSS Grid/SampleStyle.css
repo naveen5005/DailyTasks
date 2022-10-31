@@ -1,0 +1,78 @@
+.navigation{
+    display:-ms-inline-grid;
+    height: 100px;
+    background-color: skyblue;
+}
+.left-navigation{
+    text-align: center;
+}
+.left-navigation a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+}
+
+.image{
+    background-image: url("/Tasks/image.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.aside-content{
+    display:grid;
+    grid-template-columns: 300px auto;
+}
+
+.aside-link{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blanchedalmond;
+    height: 500px;
+    
+}
+.aside-link a{
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.aside-link a:first-child{
+    margin-top: 30px;
+}
+
+.blog-content{
+    border: 2px solid brown;
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow: scroll;
+    height: 500px;
+}
+
+.blog1,.blog2,.blog3,.blog4,.blog5{
+    height: 500px;
+}
+.blog1{
+    background-color: aliceblue;
+    display: flex;
+}
+.blog2{
+    background-color: aqua;
+}
+.blog3{
+    background-color: aquamarine;
+}
+.blog4{
+    background-color: bisque;
+}
+.blog5{
+    background-color: blueviolet;
+}
+.blog6{
+    background-color: coral;
+}
