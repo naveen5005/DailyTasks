@@ -1,0 +1,275 @@
+body{
+    padding: 0;
+    margin: 5px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+/* ------------------------   Navigation  ------------------------------- */
+nav{
+    background-color:#0675c4;
+    position: sticky;
+    top:0px;
+}
+.navigations a img{
+    width: 40px;
+    height: 40px;
+    margin-top:15px;
+    margin-left: 55px;
+    margin-bottom: 15px;
+}
+.left.navigation ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+.left.navigation{
+    position: relative;
+    top: -60px;
+    left: 30px;
+}
+#firstNav{
+    font-size: 2.1rem;
+    position: relative;
+    top: -15px;
+}
+a{
+    font-size:1.2rem;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.sub-nav1{
+    display: none;
+}
+
+/* .left.navigation ul li:hover .sub-nav1{
+    display: inline;
+    position: absolute;
+    top: 20px;
+    margin-left: -100px;
+    border: 2px solid black;
+
+}
+.left.navigation ul li:hover .sub-nav1 ul li{
+    display: block;
+} */
+
+/*------------------------- Right Navigation-------------------------------  */
+
+.right.navigation{
+    float: right;
+    position: relative;
+    top: -60px;
+    left: -30px;
+}
+
+.right.navigation a{
+    color: whitesmoke;
+    margin-left: 22px;
+}
+
+#getStarted{
+    border: 1px dotted whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 5px 2px 5px black;
+}
+#getStarted:hover{
+    text-decoration: underline;
+} 
+
+/* -----------------------------------   Header Image and LOGO      --------------------------------------*/
+
+img{
+    margin-top: -50px;
+    height: 500px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+/* .header-image{
+    position: relative;
+} */
+.header-image h1{
+    position: relative;
+    top:-570px;
+    left: 35%;
+    font-size: 5rem;
+}
+
+#w{
+    color: violet;
+}
+.o{
+    color: #020709;
+}
+.r{
+    color:gray;
+}
+#d{
+    color: tomato;
+}
+#p{
+    color: #431b44;
+}
+#e{
+    color: #466ea9;;
+}
+.s{
+    color: red;
+}
+#b{
+    color: #9e8f87;
+}
+#l{
+    color:aqua;
+}
+#g{
+    color: thistle;
+}
+
+/* ------------------------------------------   main content         -------------------------*/
+main{
+    height: 1100px;
+}
+
+.middle-content{
+    position: relative;
+    top: -200px;
+    left: 18%;
+    margin: auto;
+}
+.middle-content a{
+    text-decoration: none;
+    color:black;
+}
+.head-matter p{
+    font-size: 1.6rem;
+}
+.sub-section img{
+    width: 250px;
+    height: 250px;
+}
+
+.sub-section img:hover{
+    box-sizing: 1px 1px 10px red;
+}
+
+.sub-section{
+    display: flex;
+    border: 1px solid lightgray;
+    outline: 1px solid lightblue;
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 1000px;
+}
+.sub-section div{
+    margin-left: 20px;
+}
+.second-div-content{
+    font-size: 1.20rem;
+    line-height: 1.50rem;
+    width: 700px;
+}
+.second-div-conten-matter{
+    height: 500px;
+    border: 1px solid lightgray;
+    overflow: scroll;
+    border-radius: 10px;
+    border: none;
+}
+.second-div-content h2{
+    text-transform: uppercase;
+}
+.picture-div{
+    margin: auto;
+}
+
+/*------------------ ------      Footer      -----------------------------*/
+
+.main.footer{
+    margin-top:2300px;
+}
+.first.footer{
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 170px;
+}
+.first.footer h2{
+    font-size:40px;
+    font-family: 'Caveat', cursive;
+    margin-top: -5px;
+}
+
+button[type="submit"]{
+    padding: 20px;
+    margin-left: -70px;
+    width: 300px;
+    background-color: #00aadc;
+    border: none;
+    border-radius: 10px;
+    font-size: xx-large;
+    color: whitesmoke;
+    box-shadow: 0px 2px 0px black;
+}
+button[type="submit"] a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+button[type="submit"]:hover{
+    text-shadow: 5px 2px 5px black;
+    box-shadow: 5px 2px 15px black;
+}
+
+
+
+
+.second.footer ul{
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.second.footer ul li{
+    list-style: none;
+    font-size: larger;
+    line-height: 30px;
+}
+
+.second.footer ul li:first-child{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#bottom-button{
+    margin-left: 600px;
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+.second.footer ul li a{
+    text-decoration: none;
+    color:skyblue;
+}
+.second.footer ul li a:hover{
+    color: lightgrey;
+}
+
+
+.footer.last{
+    text-align: center;
+    height: 45px;
+    margin-top:50px;
+}
+p::first-letter{
+    font-size: large;
+    font-weight: bold;
+}
+
+p::selection{
+    background-color: skyblue;
+    color: whitesmoke;
+}
