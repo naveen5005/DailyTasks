@@ -1,0 +1,36 @@
+body{
+    background-color: pink;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+.navbar{
+    height:10vh;
+    color: black;
+    box-shadow: 10px 5px 10px lightgray;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.bx{
+    font-size: 1.4rem;
+    margin-top:0.5%;
+    text-align: center;
+}
+#bx-search{
+    position: relative;
+    left: 100px;
+}
+#search{
+    width: 45vw;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    padding-left: 30px;
+    height: 6vh;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
