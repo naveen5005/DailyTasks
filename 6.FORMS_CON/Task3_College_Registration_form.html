@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="Images/vignanlogo.jpg" id="img1" alt="Logo" width="250px" height="150px">
+    <hr>
+
+    <h1>Registration Form</h1>
+
+    <form action="">
+        <fieldset>
+            <legend><b><i>General Information</i></b></legend>
+            <label for="fullName">
+                FullName : 
+                <input type="text" name="FullName" id="fullName" placeholder="Enter fullname" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[ ]).{2,}" title="Atleast 2 words should contain, space should be present in between words" autofocus required>
+                <!-- pattern="(?=.*[a-z])(?=.*[A=Z]).{2,}" title="Atleast 2 letters should contain" -->
+            </label> <br><br>
+    
+            <label for="fatherName">
+                FatherName : 
+                <input type="text" name="fatherName" id="fatherName" placeholder="Enter father name" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[ ]).{2,}" title="Atleast 2 words should contain, space should be present in between words" required>
+                <!-- pattern="(?=.*[a-z])(?=.*[A=Z]).{2,}" title="Atleast 2 letters should contain" -->
+            </label> <br><br>
+    
+            <label for="motherName">
+                MotherName : 
+                <input type="text" name="motherName" id="motherName" placeholder="Enter Mother name" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[ ]).{2,}" title="Atleast 2 words should contain, space should be present in between words" required>
+                <!-- pattern="(?=.*[a-z])(?=.*[A=Z]).{2,}" title="Atleast 2 letters should contain" -->
+            </label> <br><br>
+    
+            <label for="phoneNumber">
+                Phone Number :
+                <input type="tel" name="Contact" id="phoneNumber" placeholder="Enter mobile number" pattern="[0-9]{10}" title="Phone number should contain 10 digits" required>
+            </label> <br><br>
+    
+            <label>
+                Date of birth : 
+                <input type="date" name="dob" id="dateofbirth">
+            </label> <br><br>
+            <label>
+                Gender :         
+            </label>
+            <label for="male">
+                <input type="radio" name="gender" id="male">Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female">Female
+            </label>
+            <label for="others">
+                <input type="radio" name="gender" id="Others">Others
+            </label> <br><br>
+    
+            <label for="email">
+                Email :
+                <input type="email" name="email" id="email" placeholder="Enter email id" pattern="(?=.*[a-z])(?=.*[@])(?=.*[.]).{2,}" required>
+            </label> <br><br>
+            
+            <label>Address : </label> <br><br>
+            <textarea name="Address" id="address" cols="30" rows="10" style="resize:none;">Address</textarea> <br><br>
+            <label for="branch">
+                Choose your branch : 
+                <select name="BTech branch" id="branch">
+                    <option value="none">none</option>
+                    <option value="ece">ECE</option>
+                    <option value="eee">EEE</option>
+                    <option value="mech">MECH</option>
+                    <option value="civil">CIVIL</option>
+                    <option value="ce">CE</option>
+                    <option value="ecm">ECM</option>
+                </select>
+            </label> <br><br>
+
+            <label>
+                Languages known : <br><br>
+                <input type="checkbox" name="lang1" id="hindi">Hindhi <br>
+                <input type="checkbox" name="lang2" id="english">English <br>
+                <input type="checkbox" name="lang3" id="telugu">Telugu <br>
+                <input type="checkbox" name="lang4" id="others">Others <br>
+            </label>
+  
+        </fieldset> <br>
+    
+        <fieldset>
+            <legend><b><i>Inter Details</i></b></legend>
+            <label for="collegeName">
+                College Name :
+                <input type="text" name="collegeName" id="collegeName" placeholder="Enter college name" pattern="(?=.*[a-z])(?=.*[ ])(?=.*[A-Z]).{2,}" title="Enter the valid college name">
+            </label> <br><br>
+    
+            <label for="branch">
+                Choose your branch : 
+                <select name="branch" id="branch">
+                    <option value="none">none</option>
+                    <option value="mpc">MPC</option>
+                    <option value="bipc">BIPC</option>
+                </select>
+            </label> <br><br>
+    
+            <label for="marks">
+                Marks Scored :
+                <input type="number" name="marks" id="marks" min="0" max="1000" placeholder="Marks">
+            </label> <br><br>
+    
+    
+            <label for="interCertficate">
+                Upload the Certificate :
+                <input type="file" name="Inter Certificate" id="interCertficate" accept="image/*" multiple>
+            </label>
+        </fieldset> <br>
+    
+        <fieldset>
+            <legend><b><i>Tenth Details</i></b></legend>
+            <label for="collegeName">
+                College Name :
+                <input type="text" name="collegeName" id="collegeName" placeholder="Enter school name" pattern="(?=.*[a-z])(?=.*[ ])(?=.*[A-Z]).{2,}" title="Enter the valid college name">
+            </label> <br><br>
+    
+            <label for="marks">
+                Marks Scored :
+                <input type="number" name="marks" id="marks" min="0" max="1000" placeholder="Marks">
+            </label> <br><br>
+    
+    
+            <label for="tenthCertficate">
+                Upload the Certificate :
+                <input type="file" name="Tenth Certificate" id="tenthertficate" accept="image/*" > <br><br>
+            </label>
+
+
+        </fieldset>
+        <input type="submit" value="Submit" class="submit button">
+        <input type="reset" value="Reset" class="reset button">
+    </form>
+
+
+      
+</body>
+</html>

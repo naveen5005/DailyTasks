@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Log In or sign up </title>
+</head>
+<style>
+    body{
+        border: 2px solid black;
+        width: 500px;
+        margin: auto;
+        margin-top: 150px;
+        padding: 30px;
+        padding-left: 50px;
+        border-radius: 15px;
+    }
+    #signupbutton{
+        width: 300px;
+        height: 50px;
+        font-size: larger;
+        margin-left: 100px;
+        color: whitesmoke;
+        background-color:green;
+        border-radius: 10px;
+        border: none;
+        font-weight: bolder;
+    }
+    #signupbutton:hover{
+        background-color:lightgreen;
+        opacity: 0.9;
+    }
+    .name{
+        height: 50px;
+    }
+    input{
+        /* height: 50px; */
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+    #emailAddress,#password,#dateOfBirth{
+        width: 90%;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <h1>Sign Up</h1>
+    <p>It's quick and easy.</p>
+    <hr>
+
+    <form action="" method="get">
+        <input type="text" name="FirstName" class="first name" id="firstname" placeholder="First name" pattern="(?=.*[a-z])(?=.*[A-Z]).{2,}" title="Firstname should have atleast one Uppercase">
+        <input type="text" name="surname" class="sur name" id="surname" placeholder="surname" pattern="(?=.*[a-z])(?=.*[A-Z]).{2,}" title="Surname should have atleast one upper case"> <br><br>
+        <input type="email" name="email" class="email name" id="emailAddress" placeholder="email address"> <br><br>
+        <input type="password" name="password" class="password name" id="password" placeholder="New Passowrd" pattern="(?=.*[a-z])(?=.*[0-9])(?=.*[A-Z]).{8,}" title="Password should contain at least with 8 characters with one Uppercase,one lowercase and one digit"> <br><br>
+
+        <label>
+            Date of birth : <br>
+            <input type="date" class="dob name" name="DOB" id="dateOfBirth"> <br><br>
+        </label>
+
+        <label>
+            Gender :         
+        </label>
+        <label for="male">
+            <input type="radio" name="gender" id="male">Male
+        </label>
+        <label for="female">
+            <input type="radio" name="gender" id="female">Female
+        </label>
+        <label for="others">
+            <input type="radio" name="gender" id="Others">Others
+        </label> <br><br>
+
+
+        <p>People who use our service may have uploaded your contact information to Facebook. <a href="">Learn more.</a></p>
+        <p>By clicking Sign Up, you agree to our <a href="">Terms</a>, <a href="">Privacy Policy</a> and <a href="">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+        
+        <input type="submit" value="SignUp" id="signupbutton">
+    </form>
+</body>
+</html>

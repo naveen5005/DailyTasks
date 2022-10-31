@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression in HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Basic details</legend>
+            <label for="firstname">
+                FirstName <br>
+                <input type="text" name="firstname" id="firstname" pattern="[a-zA-Z]{5,10}" title="Please enter only letters, min = 5 amd max = 10" required>
+            </label>
+            <br><br>
+            <label for="email">
+                Email Address <br>
+                <input type="email" name="Email" id="email" minlength="5" maxlength="20" multiple>
+            </label>
+            <br><br>
+            <label for="Password">
+                Password <br>
+                <!-- <input type="password" name="password" id="Password" pattern="[A-Za-z]{5}[@]{1}[0-9]{3}" title="Password must contain first 5 letters @ symbol and last 3 digits"> -->
+                <input type="password" name="pwd" id="password" pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password length should be 8 characters, at least contain one digit,one uppercase and one lowercase">
+            </label>
+            <br><br>
+            <label for="phonenumber">
+                Phone Number <br>
+                <input type="tel" name="number" id="phonenumber" pattern="[+]{1}[0-9]{2}[ ]{1}[0-9]{10}" title="Sample phone number = +91 9876543219">
+            </label>
+            <br><br>
+
+            <label for="homepage">
+                HomePage
+                <input type="url" name="homr" id="homepage" pattern="https?://.+">
+            </label>
+            <br><br>
+            <label for="uploadImage">
+                <input type="file" name="upload" id="uploadImage" accept=".txt">
+            </label>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
