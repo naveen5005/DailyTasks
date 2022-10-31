@@ -1,0 +1,102 @@
+/* Psuedo class selector */
+
+/* unvisited links */
+a:link{
+    color: yellow;
+}
+
+/* visited links */
+a:visited{
+    color: green;
+}
+
+/* mouse hover links */
+a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* selecting link */
+a:active{
+    background-color: red;
+}
+
+#hidden{
+    display: none;
+    background-color: aqua;
+    width: fit-content;
+}
+
+div:hover #hidden{
+    display: block;
+}
+
+li{
+    color: blue;
+}
+
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: darkgreen;
+}
+
+li:nth-last-child(3){
+    background-color: red;
+    width: fit-content;
+}
+
+li:nth-child(3){
+    background-color: brown;
+}
+
+input:focus{
+    color: red;
+}
+input:enabled{
+    background-color: yellow;
+    color: red;
+    font-size: large;
+}
+input:disabled{
+    background-color: skyblue;
+}
+
+input:in-range{
+    border: 5px solid green;
+}
+
+input:out-of-range{
+    border: 5px solid red;
+}
+
+/* Pseudo Elements*/
+
+p::first-line{
+    font-size:30px;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 60px;
+    background-color: aqua;
+    border: 3px dashed black;
+}
+p::selection{
+    color: white;
+    background-color: black;
+}
+
+li::marker{
+    color:darkgreen;
+    content: "++";
+}
+h1::after,h1::before{
+    content: "*****";
+    text-decoration: underline;
+    background-color: yellow;
+    color: red;
+    border: 10px dashed black;
+}
