@@ -1,0 +1,221 @@
+/*--------------------------------- body styles ---------------------------------- */
+body{
+    background-color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*--------------------------------- Horizontal line styles ---------------------------------- */
+hr{
+    width: 96%;
+}
+
+/*--------------------------------- Navigation styles ---------------------------------- */
+nav{
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+}
+a{
+    padding-left: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+/*--------------------------------- Header Styles ---------------------------------- */
+.content{
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+    /* margin-left: 250px; */
+}
+.first.content{
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.first.content p{
+    margin-left: -55px;
+}
+.middle.content{
+    margin-left: 475px;
+    margin-top: 70px;
+}
+.middle.content h3{
+    margin-top: -2px;
+}
+.last.content{
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 1500px;
+    width: 300px;
+    margin-top: -130px;
+}
+.last.content img{
+    width: 100px;
+    margin-left: -200px;
+}
+.last.content input{
+    padding: 10px;
+    border-radius: 50px;
+    font-size: larger;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+/*--------------------------------- After header Nav styles ---------------------------------- */
+.navig.link{
+    margin-left: -300px;
+}
+.navig.link a{
+    margin: 15px;
+    font-size: large;
+}
+.navig.link a:hover{
+    color: red;
+}
+.navig.buttons{
+    margin-left: 1580px;
+    margin-top: -30px;
+}
+.navig.buttons button{
+    /* padding: 10px; */
+    font-size: medium;
+    margin-left: 30px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+}
+#register{
+    background-color: darkgoldenrod;
+    border: none;
+}
+#signin{
+    color: white;
+    background-color:steelblue;
+    border: none;
+}
+
+/*--------------------------------- aside styles ---------------------------------- */
+aside{
+    /* border: 1px solid gray; */
+    width: 300px;
+    height: 1150px;
+}
+aside img{
+    width: 250px;
+    margin-top: 25px;
+}
+aside p{
+    text-align: justify;
+    padding: 20px;
+}
+aside p:hover{
+    color: red;
+}
+.left.aside.content{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.right.aside.content{
+    margin-left: 1600px;
+    margin-top: -1150px;
+}
+details{
+    font-size: 27px;
+    margin: 10px;
+}
+
+/*---------------------------------Main News Styles ---------------------------------- */
+.news{
+    /* border: 2px solid black; */
+    width: 1250px;
+    margin-left: 315px;
+    margin-top: 10px;
+    position:absolute;
+}
+.news img{
+    width: 800px;
+    height: 300px;
+    margin-left: 220px;
+    padding-left: 10px;
+}
+/* table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+.news table tr td a img{
+    width: 180px;
+    height: 150px;
+    margin-left: 20px;
+}
+.news table tr td p{
+    text-align: justify;
+    padding-left: 30px;
+}
+
+/*--------------------------------- Footer First section ---------------------------------- */
+footer{
+    background-color: black;
+    opacity: 0.7;
+}
+
+footer div h3{
+    text-align: center;
+    border-bottom: 1px solid gray;  
+    color: gainsboro;
+    /* need border bottom till the content */
+}
+
+.footer.bottom{
+    border: 2PX solid black;
+    margin-top: 1850px;
+}
+
+footer div div ul{
+    display: inline-block;
+    margin-left: 130px;
+}
+
+.top.footer.links{
+    margin-left: 270px;
+    padding-bottom: 30px;
+}
+.top ul li{
+    padding-top: 10px;
+}
+.top ul li a{
+    font-size: larger;
+    color: white;
+}
+
+/*--------------------------------- Footer middle section ---------------------------------- */
+.footer.middle{
+    border-top: 1px solid gray;
+    height: 300px;
+    border-bottom: 1px solid gray;
+}
+.first.middle.content a{
+      margin-left: 5px;
+}
+div div a img{
+    width: 43px;
+    height: 50px;
+}
+.second.middle.content,.third.middle.content{
+    width: 200px;
+    margin-left: 150px;
+}
+
+
+/*--------------------------------- Footer last section ---------------------------------- */
+.footer.last{
+    text-align: center;
+    height: 45px;
+}
+
+
+p::first-letter{
+    font-size: large;
+    font-weight: bold;
+}
